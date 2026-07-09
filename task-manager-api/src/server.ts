@@ -7,6 +7,7 @@ import { loggerMiddleware } from "./middlewares/logger.middleware";
 dotenv.config();
 
 const PORT = process.env.PORT || 5000;
+// const PORT = process.env.PORT || 5000;
 
 // Register middleware BEFORE routes
 app.use(loggerMiddleware);
